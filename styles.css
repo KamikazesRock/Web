@@ -1,4 +1,4 @@
-/* Estilos para el fondo con gif */
+/* Estilos para el video de fondo */
 .background-video {
     position: fixed;  /* Fija el video */
     top: 0;
@@ -23,38 +23,10 @@
     color: #fff;
 }
 
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #1a1a1a;
-    color: #fff;
-    text-align: center;
-}
-
+/* Estilos para el header */
 header {
     padding: 100px 20px;
-    background-image: url('ruta/a/tu/imagen.jpg');
-    background-size: cover;
-    background-position: center;
-    position: relative;
-}
-
-header::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 1;
-}
-
-header h1, header p {
-    position: relative;
-    z-index: 2;
+    text-align: center;
 }
 
 header h1 {
@@ -70,7 +42,7 @@ header p {
 /* Estilos para la sección del videoclip */
 .videoclip {
     padding: 50px 20px;
-    background-color: #222;
+    text-align: center;
 }
 
 .videoclip h2 {
@@ -89,7 +61,7 @@ header p {
 /* Estilos para la sección de Spotify */
 .spotify {
     padding: 50px 20px;
-    background-color: #1a1a1a;
+    text-align: center;
 }
 
 .spotify h2 {
@@ -110,7 +82,7 @@ header p {
 /* Estilos para la sección de YouTube Music */
 .youtube-music {
     padding: 50px 20px;
-    background-color: #222;
+    text-align: center;
 }
 
 .youtube-music h2 {
@@ -133,7 +105,6 @@ header p {
     display: flex;
     justify-content: center;
     padding: 50px 20px;
-    background-color: #1a1a1a;
 }
 
 .social-link {
@@ -150,12 +121,10 @@ header p {
     transform: scale(1.2);
 }
 
+/* Estilos para el footer */
 footer {
     padding: 20px;
-    background-color: #333;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    text-align: center;
 }
 
 footer p {
