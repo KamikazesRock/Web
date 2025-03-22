@@ -1,23 +1,28 @@
 /* Estilos para el fondo con gif */
-.background-gif {
-    position: fixed;  /* Fija el fondo */
+.background-video {
+    position: fixed;  /* Fija el video */
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('ruta/a/tu/gif.gif');  <!-- Ruta del gif -->
-    background-size: cover;
-    background-position: center;
-    z-index: -1;  /* Coloca el fondo detrás del contenido */
+    z-index: -1;  /* Coloca el video detrás del contenido */
+    overflow: hidden;
+}
+
+.background-video video {
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;  /* Asegura que el video cubra toda la pantalla */
 }
 
 /* Estilos para el contenido */
 .content {
-    position: relative;  /* Asegura que el contenido esté por encima del fondo */
-    z-index: 1;  /* Coloca el contenido por encima del fondo */
+    position: relative;  /* Asegura que el contenido esté por encima del video */
+    z-index: 1;  /* Coloca el contenido por encima del video */
     background-color: rgba(0, 0, 0, 0.7);  /* Fondo semitransparente para mejorar la legibilidad */
     color: #fff;
 }
+
 
 body {
     font-family: Arial, sans-serif;
