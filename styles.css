@@ -72,8 +72,8 @@ header p {
 }
 
 .spotify img {
-    width: 100px;
-    height: 100px;
+    width: 250px;
+    height: 250px;
     transition: transform 0.3s ease;
 }
 
