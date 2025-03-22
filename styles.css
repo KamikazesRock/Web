@@ -8,8 +8,27 @@ body {
 }
 
 header {
-    padding: 50px 20px;
-    background-color: #333;
+    padding: 100px 20px;
+    background-image: url('ruta/a/tu/imagen.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+header h1, header p {
+    position: relative;
+    z-index: 2;
 }
 
 header h1 {
@@ -22,10 +41,52 @@ header p {
     margin: 10px 0 0;
 }
 
+/* Estilos para la sección del videoclip */
+.videoclip {
+    padding: 50px 20px;
+    background-color: #222;
+}
+
+.videoclip h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.videoclip iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    border: none;
+    border-radius: 10px;
+}
+
+/* Estilos para la sección de Spotify */
+.spotify {
+    padding: 50px 20px;
+    background-color: #1a1a1a;
+}
+
+.spotify h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.spotify img {
+    width: 100px;
+    height: 100px;
+    transition: transform 0.3s ease;
+}
+
+.spotify img:hover {
+    transform: scale(1.1);
+}
+
+/* Estilos para los enlaces a redes sociales */
 .social-links {
     display: flex;
     justify-content: center;
     padding: 50px 20px;
+    background-color: #222;
 }
 
 .social-link {
@@ -44,13 +105,4 @@ header p {
 
 footer {
     padding: 20px;
-    background-color: #333;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-footer p {
-    margin: 0;
-    font-size: 0.9rem;
-}
+    background-color
