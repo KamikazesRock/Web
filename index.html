@@ -1,56 +1,33 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #1a1a1a;
-    color: #fff;
-    text-align: center;
-}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nombre de tu Banda</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Nombre de tu Banda</h1>
+        <p>Próximamente nuestro nuevo disco</p>
+    </header>
 
-header {
-    padding: 50px 20px;
-    background-color: #333;
-}
+    <section class="social-links">
+        <a href="https://www.instagram.com/tu_banda" target="_blank" class="social-link">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram">
+        </a>
+        <a href="https://www.youtube.com/tu_banda" target="_blank" class="social-link">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174883.png" alt="YouTube">
+        </a>
+        <a href="https://open.spotify.com/artist/tu_banda" target="_blank" class="social-link">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174872.png" alt="Spotify">
+        </a>
+    </section>
 
-header h1 {
-    font-size: 3rem;
-    margin: 0;
-}
+    <footer>
+        <p>&copy; 2023 Nombre de tu Banda. Todos los derechos reservados.</p>
+    </footer>
 
-header p {
-    font-size: 1.5rem;
-    margin: 10px 0 0;
-}
-
-.social-links {
-    display: flex;
-    justify-content: center;
-    padding: 50px 20px;
-}
-
-.social-link {
-    margin: 0 15px;
-    transition: transform 0.3s ease;
-}
-
-.social-link img {
-    width: 50px;
-    height: 50px;
-}
-
-.social-link:hover {
-    transform: scale(1.2);
-}
-
-footer {
-    padding: 20px;
-    background-color: #333;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-footer p {
-    margin: 0;
-    font-size: 0.9rem;
-}
+    <script src="script.js"></script>
+</body>
+</html>
