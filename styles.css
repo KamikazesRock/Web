@@ -9,9 +9,9 @@ body {
 
 header {
     padding: 100px 20px;
-    /*background-image: url('ruta/a/tu/imagen.jpg');
+    background-image: url('ruta/a/tu/imagen.jpg');
     background-size: cover;
-    background-position: center;*/
+    background-position: center;
     position: relative;
 }
 
@@ -72,12 +72,33 @@ header p {
 }
 
 .spotify img {
-    width: 250px;
-    height: 250px;
+    width: 100px;
+    height: 100px;
     transition: transform 0.3s ease;
 }
 
 .spotify img:hover {
+    transform: scale(1.1);
+}
+
+/* Estilos para la sección de YouTube Music */
+.youtube-music {
+    padding: 50px 20px;
+    background-color: #222;
+}
+
+.youtube-music h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.youtube-music img {
+    width: 100px;
+    height: 100px;
+    transition: transform 0.3s ease;
+}
+
+.youtube-music img:hover {
     transform: scale(1.1);
 }
 
@@ -86,7 +107,7 @@ header p {
     display: flex;
     justify-content: center;
     padding: 50px 20px;
-    background-color: #222;
+    background-color: #1a1a1a;
 }
 
 .social-link {
@@ -105,4 +126,13 @@ header p {
 
 footer {
     padding: 20px;
-    background-color
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
