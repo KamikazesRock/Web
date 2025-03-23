@@ -41,7 +41,8 @@ header p {
 
 /* Estilos para los botones de discos */
 .disco-buttons {
-    margin-top: 20px;
+    text-align: center;  /* Centra el botón */
+    margin: 40px 0;  /* Espaciado superior e inferior */
 }
 
 .disco-button {
