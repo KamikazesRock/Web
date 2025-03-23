@@ -39,6 +39,26 @@ header p {
     margin: 10px 0 0;
 }
 
+/* Estilos para los botones de discos */
+.disco-buttons {
+    margin-top: 20px;
+}
+
+.disco-button {
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;  /* Quita el subrayado del enlace */
+    transition: background-color 0.3s ease;
+}
+
+.disco-button:hover {
+    background-color: #e64a19;
+}
+
 /* Estilos para la sección del videoclip */
 .videoclip {
     padding: 50px 20px;
