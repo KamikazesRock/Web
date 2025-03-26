@@ -1,4 +1,4 @@
-/* Estilos para el video de fondo */
+/* Video de fondo con overlay completo */
 .background-video {
     position: fixed;
     top: 0;
@@ -6,12 +6,25 @@
     width: 100%;
     height: 100%;
     z-index: -1;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 .background-video video {
-    /* Cambiamos a 'cover' para móvil y 'contain' para desktop */
-    object-fit: cover; /* Siempre cubre el área manteniendo proporciones */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Overlay oscuro para TODO el video */
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Ajusta la opacidad (0.6 = 60% oscuro) */
+}
     
     /* Ajuste especial para móviles en portrait */
     @media (orientation: portrait) {
