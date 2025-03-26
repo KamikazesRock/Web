@@ -45,10 +45,11 @@
 
 /* Estilos para el contenido */
 .content {
-    position: relative;  /* Asegura que el contenido esté por encima del video */
-    z-index: 1;  /* Coloca el contenido por encima del video */
-    background-color: rgba(0, 0, 0, 0.7);  /* Fondo semitransparente para mejorar la legibilidad */
+    position: relative;
+    min-height: 100vh; /* Ocupa al menos el 100% del viewport */
+    /*background-color: rgba(0, 0, 0, 0.7);  Fondo semitransparente sobre TODO el contenido */
     color: #fff;
+    z-index: 1;
 }
 
 /* Estilos para el header */
