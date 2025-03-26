@@ -25,23 +25,24 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7); /* Ajusta la opacidad (0.6 = 60% oscuro) */
 }
-    
-    /* Ajuste especial para móviles en portrait */
-    @media (orientation: portrait) {
+
+/* Ajustes para móvil en portrait */
+@media (orientation: portrait) {
+    .background-video video {
         width: auto;
         height: 100%;
         left: 50%;
         position: relative;
         transform: translateX(-50%);
     }
-    
-    /* Para desktop/tablet horizontal */
-    @media (orientation: landscape) {
-        width: 100%;
-        height: auto;
-        min-height: 100%;
-    }
+}
 
+/* Para desktop/tablet horizontal */
+@media (orientation: landscape) {
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+}
 
 /* Estilos para el contenido */
 .content {
@@ -50,6 +51,12 @@
     /*background-color: rgba(0, 0, 0, 0.7);  Fondo semitransparente sobre TODO el contenido */
     color: #fff;
     z-index: 1;
+}
+
+/* Estilos para el header */
+header {
+    padding: 100px 20px;
+    text-align: center;
 }
 
 /* Estilos para el header */
