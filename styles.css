@@ -157,6 +157,45 @@ header p {
     transform: scale(1.1);
 }
 
+/* Estilos para la sección de Merchandising */
+.merchandising {
+    padding: 25px 10px;
+    text-align: center;
+}
+
+.merchandising h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.merch-image {
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos para la sección de YouTube Music */
+.youtube-music {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.youtube-music h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.youtube-music img {
+    width: 250px;
+    height: 250px;
+    transition: transform 0.3s ease;
+}
+
+.youtube-music img:hover {
+    transform: scale(1.1);
+}
+
 /* Estilos para los enlaces a redes sociales */
 .social-links {
     display: flex;
