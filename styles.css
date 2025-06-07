@@ -163,8 +163,8 @@ header p {
 }
 
 .youtube-playlist img {
-    width: 380px;
-    height: 250px;
+    width: 300px;
+    height: 200px;
     transition: transform 0.3s ease;
 }
 
