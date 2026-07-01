@@ -59,8 +59,15 @@ header {
     text-align: center;
 }
 
+.name-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    
+}
+
 header h1 {
-    font-size: 3rem;
+    font-size: 3rem;   
     margin: 0;
 }
 
