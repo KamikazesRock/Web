@@ -39,9 +39,11 @@
 
 /* Para desktop/tablet horizontal */
 @media (orientation: landscape) {
-    width: 100%;
-    height: auto;
-    min-height: 100%;
+    .background-video video {
+        width: 100%;
+        height: auto;
+        min-height: 100%;
+    }
 }
 
 /* Estilos para el contenido */
@@ -55,7 +57,7 @@
 
 /* Estilos para el header */
 header {
-    padding: 50px 0px;
+    padding: 50px 0;
     text-align: center;
 }
 
@@ -63,8 +65,14 @@ header {
     width: 100%;
     max-width: 100%;
     height: auto;
-    border-radius: 10px;
     
+}
+
+@media (max-width: 768px) {
+    .name-image {
+        transform: scale(1.5); /* Aumenta el tamaño un 50% */
+        transform-origin: center; /* Escala desde el centro */
+    }
 }
 
 header h1 {
