@@ -55,11 +55,12 @@
 
 /* Estilos para el header */
 header {
-    padding: 100px 20px;
+    padding: 50px 0px;
     text-align: center;
 }
 
 .name-image {
+    width: 100%;
     max-width: 100%;
     height: auto;
     border-radius: 10px;
