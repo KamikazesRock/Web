@@ -36,7 +36,7 @@
     }
 }
 
-/* Para desktop/tablet horizontal */
+/* Para tablet horizontal */
 @media (orientation: landscape) {
     .background-video video {
         width: 100%;
@@ -113,7 +113,7 @@ header p {
     background-color: #e64a19;
 }
 
-/* Ajuste para móviles: que ocupen todo el ancho y se apilen */
+/* Ajuste para móviles: que los botones ocupen todo el ancho y se apilen */
 @media (max-width: 600px) {  
     .disco-buttons {
         flex-direction: column;  /* Apila verticalmente */
