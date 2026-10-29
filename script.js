@@ -56,7 +56,7 @@ fetch('bbdd/canciones.json')
         else{card.innerHTML = `
             <h3>${titulo.textContent}</h3>
             <div class="cancion-letra"><strong>Letra:</strong><pre>${cancion.letra}</pre></div>
-            <div class="cancion-explicacion"><strong>Explicación:</strong><p>${cancion.explicacion}</p></div>
+            <div class="cancion-explicacion"><p>${cancion.explicacion}</p></div>
             `;
         }
         
